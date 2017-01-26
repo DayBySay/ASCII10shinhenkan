@@ -6,7 +6,7 @@ else
 	string="$(cat -)"
 fi
 
-IFS='\t'
+IFS=' '
 result=""
 
 for ix in $string; do
